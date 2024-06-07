@@ -13,3 +13,5 @@ ssh Javi@Ivy-Bridge 'rd /s /q "C:\\Users\\Javi\\Pictures\\_synced"'
 echo copying files to target device...
 scp -r $HOME/pics/_synced Javi@Ivy-Bridge:C:/Users/Javi/Pictures/
 
+read
+
